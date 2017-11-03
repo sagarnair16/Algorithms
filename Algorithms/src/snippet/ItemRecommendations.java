@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // Create a recommendation system based on item dependency
-//In the following example if someone buys item 3 they should get item3 and item4 as recommendations.
+// In the following example if someone buys item 3 they should get item3 and item4 as recommendations.
 public class ItemRecommendations {
 	
 	static HashMap<String,Set<String>> hm = new HashMap<String, Set<String>>();
